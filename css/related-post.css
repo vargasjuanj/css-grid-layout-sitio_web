@@ -1,0 +1,17 @@
+.related-post{
+    margin: 1.5rem auto;
+    padding: 1.5rem; 
+    border: 1px solid black;
+    background: #2d3436;
+    color: white;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    /* para que la transicion no sea tan brusca */
+    transition: all 0.5s ease;
+}
+.related-post:hover{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}

@@ -1,0 +1,22 @@
+.sidebar {
+    grid-column: span 2;
+    background: #485460;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 100%;
+}

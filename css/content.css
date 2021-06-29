@@ -1,0 +1,4 @@
+@import 'article.css';
+.content{
+    grid-column: span 3;
+}
