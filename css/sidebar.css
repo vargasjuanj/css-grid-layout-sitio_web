@@ -20,3 +20,10 @@
 .sidebar img {
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .sidebar{
+        /* significa que abarca todo */
+        grid-column: 1/-1;
+    }
+    }

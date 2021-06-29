@@ -1,4 +1,12 @@
 @import 'article.css';
 .content{
     grid-column: span 3;
+
+}
+
+@media screen and (max-width: 768px) {
+.content{
+    /* significa que abarca todo */
+    grid-column: 1/-1;
+}
 }

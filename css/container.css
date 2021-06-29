@@ -3,18 +3,15 @@
 @import 'sidebar.css';
 @import 'related-post.css';
 @import 'footer.css';
-
-.container{
+.container {
     background: white;
     width: 90%;
     margin: 1.5rem auto;
-    padding: 1.5rem; 
+    padding: 1.5rem;
     border: 1px solid black;
     display: grid;
     gap: 1.5rem;
-
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
-
 
 
